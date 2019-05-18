@@ -32,9 +32,14 @@ div.desc
  height: auto;
   width: 100%;
   float: left;
-  padding: 15px 0px 15px 0px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
   position: relative;
   z-indexf:1111111;
   background-color: #222;
+  font-size: 40px;
+  color: white;
+  
   
 }
