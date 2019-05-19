@@ -11,12 +11,16 @@
 	</div>
 	
 	<div class="conatact-form">
-	    <form id="contact-form" method="post" action="">
+	    <form id="contact-form" action="post" data-netlify="true">
 		<input name="name" type="text" class="form-control" placeholder="Your Name" required> <br>
 		<input name="email" type="email" class="form-control" placeholder="Your Email" required> <br>
 		
 		   <textarea name="message" class="form-control" placeholder="Message" row="4" 
 		   required> </textarea> <br>
+		   
+		   <input type="file" name="myfile" class="form-control" placeholder="Upload file" row="4" 
+		   required /> <br>
+
 		   
 		   <input type="submit" class="form-control submit" value="SEND MESSAGE">
 	</div>
