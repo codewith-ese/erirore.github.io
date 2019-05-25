@@ -11,9 +11,9 @@ header{
   background-position: center;
 }
 ul {
-  float: right;	
+  float: right;
   list-style-type: none;
-  margin-top: 25px;
+  margin-top: 35px;
   
 }
 
@@ -46,8 +46,9 @@ ul li.active a{
 }
 
 .main{
-    max-width: 1`200px;
+    max-width: 800px;
 	margin: auto;
+	position: absolute; top: 10%; left: 2%;
 }
 
 .title{
@@ -86,6 +87,7 @@ body {
 	background-color: #ffg;
 	font-family: Century Gothic;
 	color: #fff;
+	background-image: url(bimg/blue-back4.png); 100%;
 }
 
 body h1 {
@@ -96,5 +98,6 @@ body h1 {
 	position: relative;
 	top: 10px;
 	left: px;
+	background-image: url(bimg/blue-back2.png); 
 }
 
