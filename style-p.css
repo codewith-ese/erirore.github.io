@@ -5,7 +5,10 @@
 }
 
 header{
-  background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("slideimage2/002.jpg");
+  /** background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("slideimage2/002.jpg"); **/
+  background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("bimg/005.png");
+
+  
   height: 100vh;
   background-size:cover;
   background-position: center;
