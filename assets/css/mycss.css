@@ -1,0 +1,94 @@
+/**    mycode added to this templat **/
+		
+#linkOne {
+	
+	border: 2px solid gray; 
+	font-size: 22px;
+	color: white; 
+	border-radius: 5px;
+	background-color: #222; 
+	padding: 5px;
+	
+}
+
+#linkOne  li:a{
+	background-color: gray;
+	
+	
+}
+
+#linkOne a:hover {
+	background-color: green;
+}
+
+#linkOne a:active {
+	background-color: purple;
+	font-size: 25;
+	color: gold;
+}
+
+
+/** link for more images  **/
+
+#linkIMAGE {
+	
+	border: 2px solid gray; 
+	font-size: 16px;
+	color: white; 
+	border-radius: 5px;
+	background-color: #222; 
+	padding: 5px;
+	width: 50%;
+	text-align: center;
+	position: relative; top: 0%; left: 35%;
+	
+}
+
+#linkIMAGE  li:a{
+	background-color: gray;
+	
+	
+}
+
+#linkIMAGE a:hover {
+	background-color: #897654;
+}
+
+#linkIMAGE a:active {
+	background-color: purple;
+	font-size: 16;
+	color: gold;
+}
+
+
+/** link for more images222222  **/
+
+#linkIMAGE22 {
+	
+	border: 2px solid gray; 
+	font-size: 16px;
+	color: white; 
+	border-radius: 5px;
+	background-color: #222; 
+	padding: 5px;
+	width: 30%;
+	text-align: center;
+	position: relative; top: 5%; left: 35%;
+	
+}
+
+#linkIMAGE22  li:a{
+	background-color: gray;
+	
+	
+}
+
+#linkIMAGE22 a:hover {
+	background-color: #321287;
+}
+
+#linkIMAGE22 a:active {
+	background-color: purple;
+	font-size: 16;
+	color: gold;
+}
