@@ -9,7 +9,7 @@
 
 /*contact section*/
 .contact-caption{
-	background-image: url(images/wood8.jpg); 100%;
+	background-image: url(wood8.jpg); 100%;
 	/**background: #3a9dca; **/
 	/**background: #3a9dca; **/
 	padding-left: 5%;
@@ -154,7 +154,7 @@
   padding-top: 2%;
   position: relative;
   z-indexf:1111111;
-  background-image: url(images/wood6.jpg); 100%;
+  background-image: url(wood6.jpg); 100%;
   background-color: #222;
   color: white;
 }
