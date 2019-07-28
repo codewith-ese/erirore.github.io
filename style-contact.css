@@ -9,11 +9,14 @@
 
 /*contact section*/
 .contact-caption{
-	background: #3a9dca;
+	background-image: url(images/wood8.jpg); 100%;
+	/**background: #3a9dca; **/
+	/**background: #3a9dca; **/
 	padding-left: 5%;
 	padding-right: 5%;
 	border-radius: 20px;
 	border: 4px solid white;
+	background: linear-gradient(100deg,transparent,#222);
 	
 }
 .contact-heading h2{
@@ -65,8 +68,9 @@
 	width: 100%;
 	height: 40px;
 	background: #fff;
-	font-size: 13px;
-	color: #084a5c;
+	background: linear-gradient(80deg,transparent, #ff96f3);
+	font-size: 18px;
+	color: white;
 	font-family: 'Open Sans', sans-serif;
 	padding: 12px;
 	border:0;
@@ -83,6 +87,7 @@
 	margin-bottom: 12px;
 	border-radius: 10px;
 	border: 1px solid red;
+
 }
 .info-detail{
 	border-top: 1px solid #53cde5;
@@ -149,7 +154,7 @@
   padding-top: 2%;
   position: relative;
   z-indexf:1111111;
-  background-image: url(images/blue-back2.png); 100%;
+  background-image: url(images/wood6.jpg); 100%;
   background-color: #222;
   color: white;
 }
