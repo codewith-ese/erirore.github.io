@@ -1,0 +1,317 @@
+/* Global Styles */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	color: #1b1919;
+	background-color: #F9F8F5;
+	
+}
+
+.intro-top {
+	font-weight: 700;
+	margin-bottom: 1rem;
+	text-align: center;
+	font-size: 1.5rem;
+	color: #0a0d50;
+}
+
+
+/* mobile **************************/
+header {
+	background-color: #0f0F0F;
+	display: grid;
+	grid-gap: 1rem;
+	padding: 5px 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 30px #333;
+}
+
+header,
+main {
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 1.8rem;
+	color: #FFF;
+    text-align: center;
+}
+
+h2 {
+	font-size: 1.4rem;
+    text-align: center;
+
+}
+
+nav {
+	background-color: #0f0F0F;
+	display: flex;
+	flex-direction: column;
+}
+
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline double;
+	background-color: #eee;
+	color: #000;
+}
+
+.active {
+	color: yellow;
+}
+
+
+/* small view navigation */
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+	position: absolute;
+	top: 1rem;
+	right: 2rem;
+}
+
+#menu::before {
+	content: "☰";
+	color: #fff;
+}
+
+#menu.open::before {
+	content: "❎";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: #0f0F0F;
+	color: #fff;
+	max-width: 900px;
+}
+
+.navigation a {
+	display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+.navigation a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
+}
+
+/* when the button is clicked - the open class is toggled (added/removed) */
+.open a {
+	display: block;
+}
+
+.active::before {
+	content: "🔽";
+	/* just a wayfinding symbol for the user */
+
+}
+
+
+
+main {
+    margin: auto;
+}
+
+
+section {
+	margin: 1rem auto;
+	padding: 1rem;
+}
+
+.container {
+	display: block;
+    width: 100%;
+    max-width: 420px;
+	place-items: center;
+    padding: .5rem;
+    background-color: #F9F8F5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: auto;
+}
+
+.container h1 {
+    color: #0f0F0F;
+}
+
+
+/* hover effect */
+.hover:hover {
+	box-shadow: 0 0 50px #333;
+	border-radius: 10px 0 0 0;
+	border: 5px solid #FFF;
+}
+
+
+/* *------------ FORM 1 STARTS HERE -------------* */
+.wf1 fieldset {
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+.wf1 legend {
+    color: #445ba9;
+    padding: 0 .5rem;
+	font-weight: bold;
+}
+
+.wf1 label {
+    display: block;
+    padding-top: .5rem;
+    color: #0f0f0f;
+    font-size: 1.1rem;
+	font-weight: 400;
+}
+
+
+.wf1 div {
+    padding-top: 1rem;
+    color: #141927;
+    font-size: .9rem;
+}
+.wf1 input[type="text"],
+.wf1 input[type="tel"],
+.wf1 input[type="email"],
+.wf1 input[type="url"],
+.wf1 input[type="date"],
+.wf1 select,
+.wf1 input[type="number"]
+{
+    background-color: #d4d8d9;
+    display: block;
+    border: solid 1px #999;
+    /* border-radius: 6px; */
+    padding: .75rem;
+    color: #3d3c3c;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.wf1 input[type="radio"],
+.wf1 input[type="checkbox"]
+{
+    margin-right: 6px;
+}
+
+/* label[for^="radio-"] {
+	display: inline-block; 
+	margin-right: 10px; /* Adjust space between radio button and label */
+/* } */ 
+
+
+.wf1 input[type="submit"]
+{
+    border: none;
+    background-image: linear-gradient(#9c2c13, #6f200c);
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+}
+
+.wf1 input:required {
+    border-bottom: solid 8px rebeccapurple;
+}
+.wf1 input:required:valid {
+    border-bottom: solid 8px rgb(2, 102, 7);
+}
+
+
+/* RATING STARTS HERE   */
+.rating {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 4000px;
+	max-width: 300px;
+	padding-bottom: .2rem;
+  }
+  
+  .rating input[type="radio"] {
+	display: none;
+  }
+  
+  .rating label {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #939393;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	font-size: 12px;
+	color: black;
+  }
+  
+  .rating label:hover {
+	background-color: #ccc;
+  }
+  
+  .rating input[type="radio"]:checked + label {
+	background-color: #ffc107;
+  }
+  
+
+/* rating ends here  */
+
+/* FORM ID STARTS HER  */
+#submissionCount {
+	color: navy;
+	font-weight: bolder;
+	font-size: larger;
+}
+
+/* *------------ FOOTER STARTS HERE -------------* */
+footer {
+	margin-top: 15px;
+	border-top: 4px solid #ffcd06;
+	text-align: center;
+	background-color: #0f0F0F;
+	padding: 10px 0;
+	position: relative;
+
+}
+
+footer p {
+	margin: 0.25rem;
+	padding: 0.1rem 0.75rem;
+	background-color: #0f0F0F;
+	letter-spacing: .05rem;
+	line-height: 1.2rem;
+	font-size: small;
+	color: #fff;
+}
+
+.highlight {
+	color: #ddd;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+}

@@ -1,0 +1,118 @@
+
+/* Larger Views ******************************/
+@media screen and (max-width: 949px) {
+	h2 {
+		font-size: 1.7rem;
+        text-align: center;
+        color: #fff;
+	}
+	.container-class {
+		display: grid;
+        grid-template-columns: 1fr;
+		grid-template-rows: auto;
+		grid-gap: 1rem;
+
+       
+	}
+    section {
+        margin: 1rem ;
+        padding: 1rem;
+        width: 340px;
+        border: 2px solid white;
+        margin: auto;
+        
+    }
+    
+    .data-header {
+        background-color: green;
+        padding: 5px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        margin-bottom: 1rem;
+    }
+    .weather-header {
+        background-color: green;
+        color: #fff;
+        padding: 5px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        display: grid;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 950px)  {
+    header,
+    main,
+    footer {
+        margin: 0 auto;
+    }
+
+
+	h2 {
+		font-size: 1.7rem;
+        text-align: left;
+        color: #fff;
+        
+	}
+    .container-class {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+        grid-gap: 10rem;
+        position: absolute; top: 180px; left: 20px;
+    }
+
+    section {
+        margin: .1rem ;
+        padding: 1rem;
+        max-width: 300px;
+        border: 2px solid #fff;
+        background-color: #fff;
+    }
+
+
+    .data-header {
+        background-color: green;
+        color: #fff;
+        padding: 5px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        margin-bottom: 1rem;
+    }
+    .weather-header {
+        background-color: green;
+        color: white;
+        padding-right: 5px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+        /* box-shadow: 0.2rem 0.8rem 1.6rem var(--colorPrimary600); */
+    }
+    .sel::selection {
+        background-color: #000;
+        color: yellow;
+    }
+    
+    .firstline::first-line {
+        color: tomato;
+    }
+    .firstletter::first-letter {
+        color: navy;
+        font-size: 2rem;
+    }
+
+    .before::before {
+        content: "🎈 ";
+    }
+    .after::after {
+        content: " 🌮";
+    }  
+}
+
+
+
